@@ -1,0 +1,11 @@
+.dart_tool/
+.packages
+.pub/
+build/
+.idea/
+.vscode/
+*.iml
+
+supabase/.temp/
+.env
+.env.*
