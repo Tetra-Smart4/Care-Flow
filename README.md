@@ -499,15 +499,16 @@ Run the application using your Supabase project configuration.
 ### General
 
 ```bash
-flutter run --dart-define=SUPABASE_URL=https://cwzymgamqijeoeqnnkvc.supabase.co --dart-define=SUPABASE_ANON_KEY="sb_publishable_novQC_rpsn_E5PX3tR1Scg_DWS10ry7"
+flutter run `
+  --dart-define=SUPABASE_URL=https://YOUR_PROJECT.supabase.co `
+  --dart-define=SUPABASE_ANON_KEY=YOUR_PUBLISHABLE_ANON_KEY
 ```
 
 ### PowerShell
 
 ```powershell
-flutter run `
-  --dart-define=SUPABASE_URL=https://YOUR_PROJECT.supabase.co `
-  --dart-define=SUPABASE_ANON_KEY=YOUR_PUBLISHABLE_ANON_KEY
+flutter run --dart-define=SUPABASE_URL=https://cwzymgamqijeoeqnnkvc.supabase.co --dart-define=SUPABASE_ANON_KEY="sb_publishable_novQC_rpsn_E5PX3tR1Scg_DWS10ry7"
+
 ```
 
 Replace the placeholder values with your own project configuration.
